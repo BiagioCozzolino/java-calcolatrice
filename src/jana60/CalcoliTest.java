@@ -16,12 +16,16 @@ public class CalcoliTest {
 		 */
 
 		// Test Bonus 1 con numeri Double
-		System.out.println(CalcoliHelper.somma(4.9, 12.5));
-		System.out.println(CalcoliHelper.differenza(4.6, 7.6));
-		System.out.println(CalcoliHelper.moltiplicazione(5.2, 9.6));
-		System.out.println(CalcoliHelper.assoluto(-12.8));
-		System.out.println(CalcoliHelper.minore(16.5, 11.7));
-		System.out.println(CalcoliHelper.maggiore(19.2, 22.4));
+		/*
+		 * System.out.println(CalcoliHelper.somma(4.9, 12.5));
+		 * System.out.println(CalcoliHelper.differenza(4.6, 7.6));
+		 * System.out.println(CalcoliHelper.moltiplicazione(5.2, 9.6));
+		 * System.out.println(CalcoliHelper.assoluto(-12.8));
+		 * System.out.println(CalcoliHelper.minore(16.5, 11.7));
+		 * System.out.println(CalcoliHelper.maggiore(19.2, 22.4));
+		 */
+
+		System.out.println(CalcoliHelper.potenza(5, -4));
 	}
 
 }

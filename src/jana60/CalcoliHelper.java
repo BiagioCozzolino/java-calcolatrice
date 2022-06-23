@@ -107,4 +107,27 @@ public class CalcoliHelper {
 		}
 	}
 
+	// Bonus 2 Metodo per elevamento a potenza
+
+	public static double potenza(int base, int esponente) {
+		double potenza = 1;
+		if (base == 0 && esponente == 0) {
+			return 1;
+
+		} else if (esponente < 0) {
+			for (int i = 1; i <= -esponente; i++) {
+				potenza = potenza * base;
+				System.out.println(potenza);
+			}
+			double result = 0.0;
+			result = 1 / potenza;
+			return result;
+		} else {
+			for (int i = 1; i <= esponente; i++) {
+				potenza = potenza * base;
+			}
+			return potenza;
+		}
+	};
+
 }
