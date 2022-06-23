@@ -56,4 +56,55 @@ public class CalcoliHelper {
 		}
 	}
 
+	// Bonus N°1 Utilizzando l'Overload utilizzo lo stesso metodo ma dando uno
+	// svolgimento differente in questo caso utilizzando parametri double
+
+	// Somma di due numeri double
+	public static double somma(double primonum, double secondonum) {
+		return primonum + secondonum;
+	}
+
+	// Differenza tra due double
+	public static double differenza(double primonum, double secondonum) {
+
+		if (primonum < secondonum) {
+			return secondonum - primonum;
+		} else {
+			return primonum + secondonum;
+		}
+
+	}
+
+	// Moltiplicazione di due numeri double
+	public static double moltiplicazione(double primonum, double secondonum) {
+		return primonum * secondonum;
+	}
+
+	// Numero Assoluto double
+	public static double assoluto(double num) {
+		if (num >= 0) {
+			return num;
+		} else {
+			return num = -num;
+		}
+	}
+
+	// Minimo numero double
+	public static double minore(double primonum, double secondonum) {
+		if (primonum < secondonum) {
+			return primonum;
+		} else {
+			return secondonum;
+		}
+	}
+
+	// Massimo numero double
+	public static double maggiore(double primonum, double secondonum) {
+		if (primonum > secondonum) {
+			return primonum;
+		} else {
+			return secondonum;
+		}
+	}
+
 }
